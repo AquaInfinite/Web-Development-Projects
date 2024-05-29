@@ -102,7 +102,7 @@ const parsedData3 = JSON.parse(jsonSnakes);
 console.log("parsed snakes:\n\n" + parsedData3);
 
 // ---------- fetch() ----------
-fetch("C:/Users/Omega/epic_stuff/WEB DEV PROJECTS/Bro Code/using JSON files/snakes.json")
+fetch("C:/Users/Omega/Git Hub Repositories/WEB DEV PROJECTS/fundamentals/js/using JSON files/snakes.json")
     .then(response => response.json())
     .then(values => values.forEach(value => console.log(value)))
     .catch(error => console.error(error));
